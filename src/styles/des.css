@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+.content-desti{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 200px;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
+.title{
+    color: white;
+    font-size: 1.9rem;
+    margin-left: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+.title span{
+    color: gray;
+}
+.info-des{
+   
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.plan-info{
+    width: 50%;
+    color: white;
+    
+}
+.plan-info ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-family: 'Dhurjati', sans-serif;
+    font-size: 2rem;
+}
+.plan-info ul li{
+    cursor: pointer;
+}
+.plan-info ul li.active{
+    text-decoration: underline;
+}
+.plan-info h1{
+    font-family: 'Hedvig Letters Serif', serif;
+    font-size: 10rem;
+}
+.plan-info .p{
+    width: 60%;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.plan-info ul li:hover{
+    text-decoration: underline;
+}
+hr{
+    width: 75%;
+}
+.details{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    gap: 25px;
+}
+.details p:first-child{
+    color: gray;
+}
+.details p:last-child{
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 12px;
+}
+@media screen and (min-width: 300px) and (max-width: 519px) {
+    .content-desti{
+        background-image: url('https://i.ibb.co/wpT4129/background-destination-mobile.jpg') !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: bisque;
+        height: auto;
+    }
+    .title {
+        color: white;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin: 0;
+      }
+      .info-des img{
+        width: 200px;
+        height: 200px;
+        transition: 2s ease linear;
+      }
+      .info-des {
+        width: 85%;
+        margin: auto;
+          margin-top: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+      .plan-info {
+        width: 100%;
+        color: white;
+      }
+      .plan-info ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        font-family: 'Dhurjati', sans-serif;
+        font-size: 20px;
+        justify-content: center;
+      }
+      .plan-info h1 {
+        font-family: 'Hedvig Letters Serif', serif;
+        font-size: 5rem;
+        text-align: center;
+      }
+      .plan-info .p {
+        width: 100%;
+        text-align: justify;
+        margin-bottom: 20px;
+        text-align: center;
+        line-height: 30px;
+      }
+      hr {
+        width: 100%;
+      }
+      .details {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 25px;
+        text-align: center;
+      }
+      .content-desti {
+        padding-top: 150px;
+      }
+      
+}

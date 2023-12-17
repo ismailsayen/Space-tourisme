@@ -1,0 +1,136 @@
+.crew-content {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    padding-top: 200px;
+}
+
+.info-crew {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.info-crew img {
+    width: 480px;
+    height: 500px;
+}
+
+.info-member h2 {
+    color: gray;
+    font-size: 3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.info-member h1 {
+    color: white;
+    font-size: 5rem;
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+.info-member p {
+    color: white;
+    font-size: 1.3rem;
+    height: 110px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 22px;
+}
+
+.fa-regular {
+    color: white;
+}
+
+.info-member ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.info-member ul li {
+    cursor: pointer;
+}
+
+.content h1:first-child {
+    color: white;
+    font-size: 1.9rem;
+    margin-left: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content h1:first-child span {
+    color: gray;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 519px) {
+    
+    .info-member {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+        gap: 20px;
+    }
+    .info-crew {
+        flex-wrap: wrap-reverse;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 25px;
+    }
+    .crew-content{
+        background-image: url('https://i.ibb.co/L047FQ6/background-crew-mobile.jpg') !important;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: bisque;
+        height: 100%;
+        padding-top: 150px;
+    }
+    .info-member ul {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        width: 100%;
+        justify-content: center;
+      }
+      .info-crew img {
+        width: 50%;
+        height: 223px;
+      }
+      .content h1:first-child{
+        color: white;
+        font-size: 20px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        margin: 0;
+      }
+      .fa-solid {
+        font-size: 16px;
+    }
+    
+    .fa-regular {
+        font-size: 14px;
+        color: gray;
+    }
+    .info-member h2 {
+        font-size: 20px;
+      }
+      .info-member h1 {
+        font-size: 35px;
+      }
+      .info-member p {
+        color: white;
+        font-size: 14px;
+        height: auto;
+        text-align: center;
+        line-height: 25px;
+      }
+}
