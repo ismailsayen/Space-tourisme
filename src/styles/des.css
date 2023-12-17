@@ -77,7 +77,7 @@ hr{
         background-size: cover;
         background-repeat: no-repeat;
         background-color: bisque;
-        height: auto;
+        height: 140%;
     }
     .title {
         color: white;

@@ -28,6 +28,7 @@ export default function Header() {
       setClick(!click);
     }, 100);
   };
+  
   return (
     <div>
       <header>
